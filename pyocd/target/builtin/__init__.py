@@ -145,6 +145,7 @@ from . import target_STM32H7B0xx
 from . import target_Air001
 from . import target_Air32F103xx
 from . import target_AMA3B1KK
+from . import target_PIC32CM_JH01
 
 ## @brief Dictionary of all builtin targets.
 #
@@ -357,4 +358,5 @@ BUILTIN_TARGETS = {
           'air32f103xe': target_Air32F103xx.Air32F103xE,
           'air32f103xg': target_Air32F103xx.Air32F103xG,
           'ama3b1kk_kbr': target_AMA3B1KK.AMA3B1KK_KBR,
+          'pic32cm_jh01': target_PIC32CM_JH01.PIC32CM5164JH01100,
          }
